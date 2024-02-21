@@ -28,7 +28,7 @@ st.sidebar.write("- Feature Engineering & Feature Selection")
 st.sidebar.write("- Machine learning")
 
 st.header("Movie Recommender System")
-
+st.write("This system recommends five movies similar to your favorite one")
 
 movies=pickle.load(open("movies_list.pkl","rb"))
 similarity=pickle.load(open("similarity.pkl","rb"))
@@ -67,7 +67,7 @@ def recommend(movie):
 
 
 
-if st.button("Show Recommend"):
+if st.button("Show Recommended Movies"):
     movie_names,movies_poster=recommend(select_values)
     col1,col2,col3,col4,col5=st.columns(5)
     with col1:
