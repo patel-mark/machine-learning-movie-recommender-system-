@@ -1,4 +1,4 @@
-# movie-recommender-system
+# Movie-recommender-system
 ## Overview
 This project implements a movie recommender system that leverages cosine similarity to suggest similar movies based on user input. It analyzes movie data, including titles, genres, keywords, and overview information, to create vector representations of each movie. The user selects a movie they enjoy, and the system recommends the 5 most similar movies based on the cosine similarity between their vector representations.
 
